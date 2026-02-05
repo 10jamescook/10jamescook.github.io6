@@ -261,7 +261,22 @@ main {
 
 #about {
     position: relative;
-  bottom: 200px;
+    min-height: 100vh;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    bottom: 0;
+}
+
+.bottom-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.2;
 }
 
 .myvisitsarea {
@@ -273,15 +288,12 @@ main {
   width: 100%;
   position: absolute;
   opacity: 20%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-  z-index: -1;
+
 }
 
-footer {
+#about footer {
   position: relative;
+  position: 40px, 20px;
   background: rgba(0, 0, 0, 0.4);
 }
 
