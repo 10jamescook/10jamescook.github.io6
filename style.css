@@ -83,7 +83,7 @@ td {
 }
 
 a[href*="recommendations"] {
-  color: green;
+  color: rgb(255, 255, 255);
 }
 
 a[href*="blog"] {
@@ -112,7 +112,7 @@ a:hover {
 
 
 .main-list a{
-  color: green;
+  color: rgb(255, 255, 255);
 }
 
 .main-headings th{
