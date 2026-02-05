@@ -140,7 +140,7 @@ a:hover {
   display: flex; 
   gap: 60px; 
   text-transform: uppercase;
-  align: center;
+  box-align: center;
   justify-content: center;
   z-index: 1;
   position: relative;
