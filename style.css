@@ -272,11 +272,17 @@ main {
 .top-image {
   width: 100%;
   position: absolute;
-  opacity: 20%
+  opacity: 20%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1;
 }
 
 footer {
   position: relative;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 h4 {
